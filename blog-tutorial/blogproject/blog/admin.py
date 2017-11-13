@@ -6,7 +6,9 @@ from comments.models import Comment
 
 class PostAdmin(admin.ModelAdmin):
 	list_display = ['title','created_time','modified_time','category','author']
-admin.site.register(Post)
+class CommentAdmin(admin.ModelAdmin):
+	list_display = ['name','status']
+admin.site.register(Post,PostAdmin)
 admin.site.register(Category)
 admin.site.register(Tag)
-admin.site.register(Comment)
+admin.site.register(Comment,CommentAdmin)
