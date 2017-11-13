@@ -2,4 +2,8 @@ aiohttp==2.2.5
 bootstrap-admin==0.3.7.1
 django-haystack==2.6.1
 Whoosh==2.7.4
+<<<<<<< HEAD
 jieba==0.39
+=======
+jieba==0.39
+>>>>>>> 826add2fb64acbe34ee8c8309a6bf8861811f2f7
